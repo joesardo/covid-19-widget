@@ -1,0 +1,82 @@
+/* Defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background-color:	#f8f8ff;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Add sofia-pro font */
+@import url("https://p.typekit.net/p.css?s=1&k=ala7wpo&ht=tk&f=24543.24544.24547.24548&a=26253114&app=typekit&e=css");
+
+@font-face {
+font-family:"sofia-pro";
+src:url("https://use.typekit.net/af/f5f3eb/00000000000000003b9b46eb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/f5f3eb/00000000000000003b9b46eb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/f5f3eb/00000000000000003b9b46eb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+.tk-sofia-pro { font-family: "sofia-pro",sans-serif; }
+
+/* App.js styles */
+.closed {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: -100px;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.open {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin: auto;
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #d6fcff;
+  border: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: #4dbeff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.closedIcon {
+  display: none;
+}
+
+.cross {
+  position: absolute;
+  bottom: 350px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.imageStyle {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 300px;
+}
